@@ -122,13 +122,13 @@ function setupHttpAgent() {
 
 		// grab image download links
 		var matches = agent.body.match(DLREGEX);
-		for (var i = 0; i < matches.length; i++) {
+		matches.forEach(function(href) {
 			// filter out preview images
 			// i couldn't get regex lookaheads working
-			if (matches[i].indexOf('previews') === -1) {
-				imageLinks.push(matches[i]);
+			if (href.indexOf('previews') === -1) {
+				imageLinks.push(href);
 			}
-		}
+		});
 
 		// grab next page link
 		pageNumber++;
