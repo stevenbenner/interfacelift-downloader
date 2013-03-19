@@ -20,8 +20,6 @@
       "url": "http://stevenbenner.github.com/interfacelift-downloader/blob/master/LICENSE.txt"
     }
   ],
-  "dependencies": {
-    "http-agent": "~0.1.2"
-  },
+  "dependencies": {},
   "keywords": []
 }
