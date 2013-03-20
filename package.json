@@ -1,6 +1,5 @@
 {
   "name": "interfacelift-downloader",
-  "title": "InterfaceLIFT Wallpaper Auto-Downloader",
   "description": "InterfaceLIFT wallpaper auto-downloader script for node.js.",
   "version": "1.0.0",
   "author": {
