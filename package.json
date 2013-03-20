@@ -16,7 +16,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://stevenbenner.github.com/interfacelift-downloader/blob/master/LICENSE.txt"
+      "url": "https://github.com/stevenbenner/interfacelift-downloader/blob/master/LICENSE.txt"
     }
   ],
   "bin": {
