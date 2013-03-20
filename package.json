@@ -2,6 +2,7 @@
   "name": "interfacelift-downloader",
   "description": "InterfaceLIFT wallpaper auto-downloader script for node.js.",
   "version": "1.0.0",
+  "homepage": "https://github.com/stevenbenner/interfacelift-downloader",
   "author": {
     "name": "Steven Benner",
     "url": "http://stevenbenner.com/"
