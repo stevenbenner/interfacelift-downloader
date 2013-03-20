@@ -19,6 +19,9 @@
       "url": "http://stevenbenner.github.com/interfacelift-downloader/blob/master/LICENSE.txt"
     }
   ],
+  "bin": {
+    "interfacelift-downloader": "bin/interfacelift-downloader"
+  },
   "dependencies": {},
   "keywords": []
 }
