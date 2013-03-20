@@ -1,26 +1,38 @@
 # InterfaceLIFT Wallpaper Auto-Downloader
 
-An InterfaceLIFT wallpaper auto-downloader script for node.js.
+An InterfaceLIFT wallpaper auto-downloader for node.js.
 
 ## Introduction
 
-It takes way too long to download all of the great photos in InterfaceLIFT's wallpaper collection by hand, and I'm too much of a cheap bastard to pay them for the privilege of using their bulk download service. So here is the leechers way of grabbing all of their wallpapers quickly, easily, for free.
+It takes way too long to download all of the great images in InterfaceLIFT's wallpaper collection by hand, and I'm too much of a cheap bastard to pay them for the privilege of using their bulk download service. So here is the leechers way of grabbing all of their wallpapers quickly, easily, and for free.
+
+## Install
+
+Install this package globally via NPM by running the following command:
+
+```shell
+npm install -g interfacelift-downloader
+```
+
+You now have access to the `interfacelift-downloader` command.
 
 ## Usage
 
-* Get the script from this repository
-* Install the dependencies `npm install`, or `npm install http-agent`.
-* Run it `node interfacelift-downloader.js 1920x1080` (replace 1920x1080 with the resolution you're looking for)
+Navigate to the path that you want to save the files in and execute the `interfacelift-downloader` command with the resolution that you want to search for as an argument. Here is an example:
 
-The script will save the downloaded images in the `downloads\1920x1080` folder. If the downloads folder or resolution folder do not exist it will create them. It will not overwrite any files in the downloads folder that already exist.
+```shell
+interfacelift-downloader 1920x1080
+```
+
+This will tell the script to search for all images with a resolution of 1920x1080 pixels and save them to your current working directory. It will not download or overwrite any existing files.
 
 ## Reporting Bugs
 
-If you find any bugs or have any questions then please feel free to [open a new issue](https://github.com/stevenbenner/interfacelift-downloader/issues/new). You can also contact me on twitter at [@stevenbenner](https://twitter.com/stevenbenner).
+If you find any bugs, want to request a new feature, or have any questions then please feel free to [open a new issue](https://github.com/stevenbenner/interfacelift-downloader/issues/new) in this GitHub project. You can also contact me on twitter at [@stevenbenner](https://twitter.com/stevenbenner).
 
 ## Contributing
 
-Please feel free to add features or fix bugs yourself! I welcome all pull requests. Just fork this project, make your changes and submit a new pull request.
+Please feel free to add features or fix bugs yourself! I welcome pull requests for this project. If you would like to submit a patch then simply [fork this project](https://github.com/stevenbenner/interfacelift-downloader/fork), make your changes and submit a new pull request.
 
 ## License
 
