@@ -1,6 +1,6 @@
-# InterfaceLIFT Wallpaper Auto-Downloader
+# InterfaceLIFT Wallpaper Downloader
 
-An InterfaceLIFT wallpaper auto-downloader for node.js.
+An InterfaceLIFT wallpaper auto-downloader and sync tool for node.js.
 
 ## Introduction
 
