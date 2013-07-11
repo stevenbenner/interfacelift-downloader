@@ -2,6 +2,8 @@
 
 An InterfaceLIFT wallpaper auto-downloader and sync tool for node.js.
 
+[![NPM version](https://badge.fury.io/js/interfacelift-downloader.png)](https://badge.fury.io/js/interfacelift-downloader)
+
 ## Introduction
 
 It takes way too long to download all of the great images in InterfaceLIFT's wallpaper collection by hand, and I'm too much of a cheap bastard to pay them for the privilege of using their bulk download service. So here is the leechers way of grabbing all of their wallpapers quickly, easily, and for free.
