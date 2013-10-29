@@ -1,14 +1,5 @@
 #!/usr/bin/env node
-/*
- * InterfaceLIFT Wallpaper Auto-Downloader
- * https://github.com/stevenbenner/interfacelift-downloader
- *
- * Copyright (c) 2013 Steven Benner (http://stevenbenner.com/).
- * Released under the MIT License.
- */
-
 'use strict';
 
 var cli = require('./../lib/cli');
-
 cli.process(process.argv);
