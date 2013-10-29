@@ -1,2 +1,18 @@
-node_modules
-downloads
+# Core ignores.
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*#
+.git/
+
+# OS ignores.
+.DS_Store
+
+# Project ignores.
+/node_modules

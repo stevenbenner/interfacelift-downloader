@@ -1,32 +1,21 @@
 {
-  "name": "interfacelift-downloader",
-  "description": "InterfaceLIFT wallpaper auto-downloader.",
-  "version": "2.0.1",
-  "homepage": "https://github.com/stevenbenner/interfacelift-downloader",
+  "name": "interfacelift-downloader-plusplus",
+  "description": "InterfaceLIFT automatic bulk downloader.",
+  "version": "3.0.0",
+  "homepage": "https://github.com/rockymadden/interfacelift-downloader-plusplus",
   "author": {
-    "name": "Steven Benner",
-    "url": "http://stevenbenner.com/"
+    "name": "Rocky Madden",
+    "url": "http://rockymadden.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenbenner/interfacelift-downloader.git"
+    "url": "https://github.com/rockymadden/interfacelift-downloader-plusplus.git"
   },
-  "bugs": {
-    "url": "https://github.com/stevenbenner/interfacelift-downloader/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/stevenbenner/interfacelift-downloader/master/LICENSE.txt"
-    }
-  ],
   "bin": {
-    "interfacelift-downloader": "bin/interfacelift-downloader"
+    "interfacelift-downloader-plusplus": "bin/interfacelift-downloader-plusplus"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
-  "preferGlobal": true,
-  "dependencies": {},
-  "keywords": []
+  "preferGlobal": true
 }
