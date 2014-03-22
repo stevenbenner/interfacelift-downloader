@@ -2,7 +2,7 @@
 
 An InterfaceLIFT wallpaper auto-downloader and sync tool for node.js.
 
-[![NPM version](https://badge.fury.io/js/interfacelift-downloader.png)](https://badge.fury.io/js/interfacelift-downloader)
+[![NPM version](http://img.shields.io/npm/v/interfacelift-downloader.svg)](https://www.npmjs.org/package/interfacelift-downloader)
 
 ## Introduction
 
