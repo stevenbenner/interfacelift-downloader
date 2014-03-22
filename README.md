@@ -55,6 +55,34 @@ If you find any bugs, want to request a new feature, or have any questions then 
 
 Please feel free to add features or fix bugs yourself! I welcome pull requests for this project. If you would like to submit a patch then simply [fork this project](https://github.com/stevenbenner/interfacelift-downloader/fork), make your changes and submit a new pull request.
 
+## Change Log
+
+**v2.1.0** (Mar 22, 2014)
+* Fixed unhandled exception thrown on random image redirects.
+* Fixed unhandled exception thrown on 404 errors.
+* Fixed resolution parameter being ignored when path is specified.
+* Argument errors will now cause the process to exit with a failure code.
+* Optimized how files are saved to disk.
+* Optimized call stack memory usage for image downloader.
+
+**v2.0.2** (Dec 14, 2013)
+* Added dual monitor resolutions.
+* Added triple monitor resolutions.
+* Added netbook monitor resolutions.
+* Added 1600x900 monitor resolution.
+
+**v2.0.1** (Mar 27, 2013)
+* Added destination path option to CLI.
+
+**v2.0.0** (Mar 20, 2013)
+* Removed http-agent dependency to support Node.js 0.10.0.
+* Added NPM support to the project.
+* The script will no longer create download folders.
+* Major refactor of the project to use modular code.
+
+**v1.0.0** (Feb 23, 2013)
+* Initial public release.
+
 ## License
 
 *(This project is released under the [MIT license](https://raw.github.com/stevenbenner/interfacelift-downloader/master/LICENSE.txt).)*
