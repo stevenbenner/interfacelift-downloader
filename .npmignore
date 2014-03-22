@@ -2,3 +2,4 @@ downloads
 .editorconfig
 .gitattributes
 .gitignore
+.npmignore
