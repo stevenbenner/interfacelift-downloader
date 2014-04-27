@@ -59,6 +59,9 @@ Please feel free to add features or fix bugs yourself! I welcome pull requests f
 
 ## Change Log
 
+**v2.1.1** (Apr 27, 2014)
+* Added 2x2 monitor resolutions.
+
 **v2.1.0** (Mar 22, 2014)
 * Fixed unhandled exception thrown on random image redirects.
 * Fixed unhandled exception thrown on 404 errors.
