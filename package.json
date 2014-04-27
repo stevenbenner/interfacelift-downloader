@@ -28,5 +28,9 @@
   },
   "preferGlobal": true,
   "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10",
+    "grunt-jsonlint": "~1.0"
+  },
   "keywords": []
 }

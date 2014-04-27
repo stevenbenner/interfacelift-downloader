@@ -2,4 +2,6 @@ downloads
 .editorconfig
 .gitattributes
 .gitignore
+.jshintrc
 .npmignore
+Gruntfile.js
