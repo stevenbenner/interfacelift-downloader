@@ -45,5 +45,6 @@ module.exports = function(grunt) {
 
   // register grunt tasks
   grunt.registerTask('default', [ 'jshint', 'jsonlint' ]);
+  grunt.registerTask('travis', [ 'jshint', 'jsonlint' ]);
 
 };
