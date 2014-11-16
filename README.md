@@ -59,6 +59,11 @@ Please feel free to add features or fix bugs yourself! I welcome pull requests f
 
 ## Change Log
 
+**v2.1.2** (Nov 16, 2014)
+* Added 21:9 monitor resolutions.
+* Added portrait mode monitor resolutions.
+* Added more widescreen monitor resolution.
+
 **v2.1.1** (Apr 27, 2014)
 * Added 2x2 monitor resolutions.
 
