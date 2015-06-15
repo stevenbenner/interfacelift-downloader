@@ -51,11 +51,11 @@ This will tell the script to search for all images with a resolution of 1920x108
 You can also specify a full path.
 
 ```shell
-interfacelift-downloader ~/Downloads/1920x1080
+interfacelift-downloader 1920x1080 ~/downloads/1920x1080
 ```
 
 ```shell
-interfacelift-downloader /Users/steven/Downloads/1920x1080
+interfacelift-downloader 1920x1080 /Users/steven/downloads/1920x1080
 ```
 
 ## Reporting Bugs
