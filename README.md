@@ -36,7 +36,6 @@ Navigate to the path that you want to save the files in and execute the `interfa
 ```shell
 interfacelift-downloader 1920x1080
 ```
-
 This will tell the script to search for all images with a resolution of 1920x1080 pixels and save them to your current working directory. It will not download or overwrite any existing files.
 
 ### To save files to a specific folder
@@ -48,6 +47,16 @@ interfacelift-downloader 1920x1080 downloads/1920x1080
 ```
 
 This will tell the script to search for all images with a resolution of 1920x1080 pixels and save them to the downloads/1920x1080 directory. It will not download or overwrite any existing files.
+
+You can also specify a full path.
+
+```shell
+interfacelift-downloader ~/Downloads/1920x1080
+```
+
+```shell
+interfacelift-downloader /Users/steven/Downloads/1920x1080
+```
 
 ## Reporting Bugs
 
