@@ -32,6 +32,7 @@
   "preferGlobal": true,
   "dependencies": {},
   "devDependencies": {
+    "grunt": "~0.4",
     "grunt-contrib-jshint": "~0.10",
     "grunt-jsonlint": "~1.0"
   },
