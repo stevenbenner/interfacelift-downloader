@@ -27,7 +27,7 @@ You now have access to the `interfacelift-downloader` command.
 The `interfacelift-downloader` command accepts two arguments:
 
 * The **resolution** option needs to be the image resolution that you want to search for (e.g. 1920x1080).
-* The **path** is the path to save the downloaded files to. If specified this must be a path to a folder based on your current working directory (e.g. downloads, or ../wallpaper/1080). If this option is omitted then files will be saved to your current working directory.
+* The **path** is the path to save the downloaded files to. If specified this must be a path to a folder based on your current working directory (e.g. downloads, or ../wallpaper/1080) or the full path. (e.g. ~/downloads, or /Users/steven/downloads) If this option is omitted then files will be saved to your current working directory.
 
 ### To save files to your current folder
 
@@ -36,7 +36,6 @@ Navigate to the path that you want to save the files in and execute the `interfa
 ```shell
 interfacelift-downloader 1920x1080
 ```
-
 This will tell the script to search for all images with a resolution of 1920x1080 pixels and save them to your current working directory. It will not download or overwrite any existing files.
 
 ### To save files to a specific folder
@@ -48,6 +47,16 @@ interfacelift-downloader 1920x1080 downloads/1920x1080
 ```
 
 This will tell the script to search for all images with a resolution of 1920x1080 pixels and save them to the downloads/1920x1080 directory. It will not download or overwrite any existing files.
+
+You can also specify a full path.
+
+```shell
+interfacelift-downloader 1920x1080 ~/downloads/1920x1080
+```
+
+```shell
+interfacelift-downloader 1920x1080 /Users/steven/downloads/1920x1080
+```
 
 ## Reporting Bugs
 
