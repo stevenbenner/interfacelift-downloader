@@ -14,12 +14,7 @@
   "bugs": {
     "url": "https://github.com/stevenbenner/interfacelift-downloader/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/stevenbenner/interfacelift-downloader/master/LICENSE.txt"
-    }
-  ],
+  "license": "MIT",
   "bin": {
     "interfacelift-downloader": "bin/interfacelift-downloader"
   },
