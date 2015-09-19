@@ -28,7 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4",
-    "grunt-contrib-jshint": "~0.10",
+    "grunt-contrib-jshint": "~0.11",
     "grunt-jsonlint": "~1.0"
   },
   "keywords": []
