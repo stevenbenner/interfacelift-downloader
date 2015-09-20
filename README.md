@@ -68,6 +68,9 @@ Please feel free to add features or fix bugs yourself! I welcome pull requests f
 
 ## Change Log
 
+**v2.2.0** (Sep 19, 2015)
+* Added support for absolute paths.
+
 **v2.1.2** (Nov 16, 2014)
 * Added 21:9 monitor resolutions.
 * Added portrait mode monitor resolutions.
