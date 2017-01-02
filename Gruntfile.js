@@ -5,7 +5,6 @@
 'use strict';
 
 module.exports = function(grunt) {
-
   // configure grunt
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -46,5 +45,4 @@ module.exports = function(grunt) {
   // register grunt tasks
   grunt.registerTask('default', [ 'jshint', 'jsonlint' ]);
   grunt.registerTask('travis', [ 'jshint', 'jsonlint' ]);
-
 };
