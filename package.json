@@ -22,6 +22,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "grunt": "grunt",
     "test": "grunt travis --verbose"
   },
   "preferGlobal": true,
