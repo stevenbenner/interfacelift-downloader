@@ -9,23 +9,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
       grunt: {
-        src: [ 'Gruntfile.js' ],
-        options: {
-          jshintrc: '.jshintrc'
-        }
+        src: [ 'Gruntfile.js' ]
       },
       bin: {
-        src: [ 'bin/*' ],
-        options: {
-          jshintrc: '.jshintrc'
-        }
+        src: [ 'bin/*' ]
       },
       lib: {
-        src: [ 'lib/*.js' ],
-        options: {
-          jshintrc: '.jshintrc'
-        }
+        src: [ 'lib/*.js' ]
       }
     },
     jscs: {
