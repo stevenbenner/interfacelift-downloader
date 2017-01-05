@@ -59,6 +59,16 @@ interfacelift-downloader 1920x1080 ~/downloads/1920x1080
 interfacelift-downloader 1920x1080 /Users/steven/downloads/1920x1080
 ```
 
+### To limit the total number of files downloaded
+
+You can also limit the total number of images that the script will attempt to download. This is a great way to speed up the process and limit the size of your download. Simply pass the maximum number of images to download to the command after the download path. For example:
+
+```shell
+interfacelift-downloader 1920x1080 ~/downloads/1920x1080 15
+```
+
+That command will download up to a maximum of 15 images. Note that you must include the resolution and download path in the command for it to work.
+
 ## Reporting Bugs
 
 If you find any bugs, want to request a new feature, or have any questions then please feel free to [open a new issue](https://github.com/stevenbenner/interfacelift-downloader/issues/new) in this GitHub project. You can also contact me on twitter at [@stevenbenner](https://twitter.com/stevenbenner).
