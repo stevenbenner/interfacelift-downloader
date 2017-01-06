@@ -7,3 +7,4 @@ downloads
 .npmignore
 .travis.yml
 Gruntfile.js
+*.tgz
