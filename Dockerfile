@@ -2,8 +2,9 @@ FROM node
 
 WORKDIR /home/downloader
 
-RUN git clone https://github.com/stevenbenner/interfacelift-downloader.git && \
-    npm install -g interfacelift-downloader
+ADD . /home/downloader
+
+RUN npm install -g interfacelift-downloader
 
 VOLUME ["/downloads"]
 
