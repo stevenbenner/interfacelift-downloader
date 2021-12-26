@@ -5,6 +5,5 @@ downloads
 .jscsrc
 .jshintrc
 .npmignore
-.travis.yml
 Gruntfile.js
 *.tgz
