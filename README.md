@@ -3,7 +3,6 @@
 An InterfaceLIFT wallpaper auto-downloader and sync tool for node.js.
 
 [![Build Status](https://travis-ci.org/stevenbenner/interfacelift-downloader.svg?branch=master)](https://travis-ci.org/stevenbenner/interfacelift-downloader)
-[![Dependency Status](https://gemnasium.com/stevenbenner/interfacelift-downloader.svg)](https://gemnasium.com/stevenbenner/interfacelift-downloader)
 [![NPM version](http://img.shields.io/npm/v/interfacelift-downloader.svg)](https://www.npmjs.org/package/interfacelift-downloader)
 
 ## Introduction
