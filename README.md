@@ -22,7 +22,7 @@ You now have access to the `interfacelift-downloader` command.
 
 `interfacelift-downloader [resolution] [path] [download limit]`
 
-The `interfacelift-downloader` command accepts two arguments:
+The `interfacelift-downloader` command accepts three arguments:
 
 * The **resolution** option needs to be the image resolution that you want to search for (e.g. 1920x1080).
 * The **path** is the path to save the downloaded files to. If specified this must be a path to a folder based on your current working directory (e.g. downloads, or ../wallpaper/1080) or the full path. (e.g. ~/downloads, or /Users/steven/downloads) If this option is omitted then files will be saved to your current working directory.
