@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "@stevenbenner/eslint-config"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 3
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-var": "off",
+    "require-jsdoc": "off",
+    "vars-on-top": "off"
+  }
+}

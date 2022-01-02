@@ -1,9 +1,8 @@
 downloads
 .editorconfig
+.eslintrc.json
 .gitattributes
 .gitignore
-.jscsrc
-.jshintrc
 .npmignore
 Gruntfile.js
 *.tgz

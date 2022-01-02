@@ -28,9 +28,9 @@
   "preferGlobal": true,
   "dependencies": {},
   "devDependencies": {
+    "@stevenbenner/eslint-config": "~2.0",
     "grunt": "~1.4",
-    "grunt-contrib-jshint": "~3.1",
-    "grunt-jscs": "3.0",
+    "grunt-eslint": "~24.0",
     "grunt-jsonlint": "~2.1"
   },
   "keywords": []
