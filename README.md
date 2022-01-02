@@ -69,7 +69,7 @@ That command will download up to a maximum of 15 images. Note that you must incl
 
 ## Reporting Bugs
 
-If you find any bugs, want to request a new feature, or have any questions then please feel free to [open a new issue](https://github.com/stevenbenner/interfacelift-downloader/issues/new) in this GitHub project. You can also contact me on twitter at [@stevenbenner](https://twitter.com/stevenbenner).
+If you find any bugs, want to request a new feature, or have any questions then please feel free to [open a new issue](https://github.com/stevenbenner/interfacelift-downloader/issues/new) in this GitHub project.
 
 ## Contributing
 
