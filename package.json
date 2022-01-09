@@ -23,7 +23,7 @@
   },
   "scripts": {
     "grunt": "grunt",
-    "test": "grunt test --verbose"
+    "test": "grunt test --verbose --stack"
   },
   "preferGlobal": true,
   "dependencies": {},
