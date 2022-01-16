@@ -7,7 +7,6 @@
 module.exports = function(grunt) {
   // configure grunt
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
     eslint: {
       grunt: {
         src: [ 'Gruntfile.js' ]
