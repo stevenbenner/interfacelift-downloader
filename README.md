@@ -8,6 +8,8 @@ An InterfaceLIFT wallpaper auto-downloader and sync tool for node.js.
 
 It takes way too long to download all of the great images in InterfaceLIFT's wallpaper collection by hand, and I'm too much of a cheap bastard to pay them for the privilege of using their bulk download service. So here is the leechers way of grabbing all of their wallpapers quickly, easily, and for free.
 
+This software is licensed under the [MIT license](LICENSE.txt).
+
 ## Install
 
 Install this package globally via NPM by running the following command:
@@ -118,15 +120,3 @@ Please feel free to add features or fix bugs yourself! I welcome pull requests f
 
 **v1.0.0** (Feb 23, 2013)
 * Initial public release.
-
-## License
-
-*(This project is released under the [MIT license](https://raw.github.com/stevenbenner/interfacelift-downloader/master/LICENSE.txt).)*
-
-Copyright 2022 Steven Benner (https://stevenbenner.com/)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
