@@ -79,6 +79,14 @@ Please feel free to add features or fix bugs yourself! I welcome pull requests f
 
 ## Change Log
 
+**v2.4.0** (Feb 5, 2022)
+* Added download retry functionality to handle intermittent disconnects.
+* Changed HTTP requests to use HTTPS.
+* Added android resolutions.
+* Added more widescreen monitor resolutions.
+* Added more iphone resolutions.
+* Added more ipad resolutions.
+
 **v2.3.0** (Jan 6, 2017)
 * Added download limit option.
 * Added iphone resolutions.
